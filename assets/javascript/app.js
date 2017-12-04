@@ -9,6 +9,16 @@ var incorrect = 0;
 var unanswered = 0;
 var nameArray = ["www", "email", "bios", "cmd"];
 
+// hide the container in the beginning
+$(".container").hide();
+
+// when start button click, show container, hide start button and run count
+$("#startGame").click(function (){
+    $(".container").show();
+    $(this).hide();
+    runCount();    
+});
+
 
 // set interval function
 function runCount() {
@@ -31,7 +41,7 @@ function countDown() {
     }
 }
 
-runCount();
+
 
 // function show result
 function showResult() {
