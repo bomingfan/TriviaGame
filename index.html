@@ -16,30 +16,86 @@
     src="https://code.jquery.com/jquery-3.2.1.js"
     integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
     crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Acme|Pacifico" rel="stylesheet">
 
     <title>Document</title>
 </head>
 <body>
     <div class = "wrapper">
         <h1>Trivia Game!</h1>
+        <h2 id = "timer"></h2>
     </div>
 
     <div class="container">
-        <h2>What is </h2>
+        <h2>"www" stands for?</h2>
         <form>
           <div class="radio">
-            <label><input type="radio" name="optradio">Option 1</label>
+            <label><input type="radio" name="www" value="0">World Wide Wait</label>
           </div>
           <div class="radio">
-            <label><input type="radio" name="optradio">Option 2</label>
+            <label><input type="radio" name="www" value="1">World Wide Web</label>
           </div>
           <div class="radio">
-            <label><input type="radio" name="optradio">Option 3</label>
-          </div>
-          <div class="radio">
-            <label><input type="radio" name="optradio">Option 4</label>
+            <label><input type="radio" name="www" value="0">World Wide War</label>
           </div>
         </form>
+        <br>
+
+        <h2>On which of the following sites can you set up an email account?</h2>
+        <form>
+          <div class="radio">
+            <label><input type="radio" name="email" value="0">www.linux.org</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="email" value="0">www.bing.com</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="email" value="1">www.yahoo.com</label>
+          </div>
+        </form>
+        <br>
+
+        <h2>What does BIOS stand for?</h2>
+        <form>
+          <div class="radio">
+            <label><input type="radio" name="bios" value="0">Biographics</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="bios" value="0">Something Computer Related</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="bios" value="1">Basic Input/Output System</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="bios" value="0">Basic Internal Operating System</label>
+          </div>
+        </form>
+        <br>
+
+        <h2>What do you get when you type "cmd" in "run"?</h2>
+        <form>
+          <div class="radio">
+            <label><input type="radio" name="cmd" value="1">Command Prompt</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="cmd" value="0">A Virus</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="cmd" value="0">Bing Search</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="cmd" value="0">The Cool Me Down Application</label>
+          </div>
+        </form>
+        <br>
+
+       
+        <input type="button" id="btnGetValue" Value="Done!" />
+
+
+
+
     </div>
 
     <!-- Linking to our JavaScript file. -->
