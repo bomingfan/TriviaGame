@@ -74,7 +74,7 @@ $('#btnGetValue').click(function() {
 
 // if button is clicked, stop cocunt and show result
     stopCount();
-    $("#timer").html("Time's Up");
+    $("#timer").html("Wow! You are Swift!");
     showResult();
 
 });
